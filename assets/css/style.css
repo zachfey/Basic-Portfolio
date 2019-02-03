@@ -1,0 +1,126 @@
+header {
+    background-color: #fff;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: #ccc;
+    height: auto;
+    margin-bottom:0px;
+    overflow: auto;
+}
+
+#headertext{
+    width:960px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+h1 {
+    display:block;
+    float:left;
+    background-color: #4aaaa5;
+    color: #fff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    /* background-color: black; */
+    padding: 20px;   
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+.headerlinks {
+    float:right;
+    padding: 26px 0px 26px 0px;
+    vertical-align: middle;
+    /* background-color: black; */
+}
+
+#indexlink{
+    border: black;
+    padding: 0px 10px 0px 10px;
+    /* background-color: orange; */
+    display: inline;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color:#d9d9d9d9;
+}
+
+#portfoliolink{
+    border: black;
+    padding: 0px 10px 0px 10px;
+    /* background-color: orange; */
+    display: inline;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #d9d9d9d9;
+}
+
+#contactlink{
+    border: black;
+    padding: 0px 10px 0px 10px;
+    /* background-color: orange; */
+    display: inline;
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+    float:left;
+    margin-right: 30px;
+}
+
+#maincontainer{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background-image: url(../images/qbkls.png);
+}
+
+#main{
+    display:block;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#ddd;
+    overflow:auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    padding:20px 30px 30px 30px;
+ }
+
+h2{
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color:#ddd;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    padding-bottom: 20px;
+    padding-top: -20px;
+    font-size: 30px;
+}
+
+p{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.75;
+    color: #777;
+    font-size:20px;
+}
+
+a{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    text-decoration: none;
+    font-size:20px;
+}
+
+footer{
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: 4px 0px 0px 0px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #666;
+    color: #fff;
+    padding-top:20px;
+    text-align: center;
+}
