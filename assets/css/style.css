@@ -125,12 +125,17 @@ footer{
     text-align: center;
 }
 
+#footerp{
+    color: #fff;
+    font-size:12px;
+}
+
 input[type=text], select, textarea{
     width: 97%;
     padding:12px;
     border-style: solid;
     border-width: 1px;
-    border-color: #777;
+    border-color: #ddd;
     margin-top: 6px;
     margin-bottom: 16px;
 }
@@ -140,4 +145,22 @@ label{
     line-height: 1.75;
     color: #777;
     font-size:20px;
+}
+
+input[type=submit]{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size:20px;
+    background-color:  #4aaaa5;
+    border-style: none;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+}
+
+.portitem{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    float:left;
+    margin: 20px 20px 20px 0px;
 }
