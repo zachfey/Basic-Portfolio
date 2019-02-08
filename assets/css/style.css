@@ -62,7 +62,7 @@ h1 {
 }
 
 
-img{
+#selfie{
     width: 200px;
     height: 200px;
     float:left;
@@ -157,19 +157,35 @@ input[type=submit]{
 }
 
 .portitem{
-    width: 200px;
-    height: 200px;
+    position: relative;
+    width: 250px;
+    height: 250px;
     float:left;
-    margin: 20px 20px 20px 0px;
+    margin: 20px 75px 20px 0px; /*right margin is 75px to align third image up to right side of main container*/
+    padding: auto;
+}
+
+.portpic{
+    width:250px;
+    height:250px;
 }
 
 .portlabel{
-    display:absolute;
-    top: 5%;
+    position: absolute;
+    bottom: 10px;
+    left: auto;
+    width:250px;
     background-color: #4aaaa5;
     color: #fff;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 20px;   
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-top:0px;
     margin-bottom: 0px;
+    text-align: center;
+}
+
+.last{ /*this class is assigned to last image in each row so that it will sit flush*/
+    margin-right:0px;
 }
