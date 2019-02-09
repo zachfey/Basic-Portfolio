@@ -1,3 +1,7 @@
+html{
+    overflow-y: overlay; /*to prevent the scrollbar by changing the width of the page thus shifting the content (overlays the scrollbar)*/
+}
+
 header {
     background-color: #fff;
     border-style: solid;
@@ -6,6 +10,7 @@ header {
     height: auto;
     margin-bottom:0px;
     overflow: auto;
+    flex-shrink: 0;
 }
 
 #headertext{
